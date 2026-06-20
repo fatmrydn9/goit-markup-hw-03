@@ -1,8 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -16,6 +53,20 @@ body {
 .logo-part {
   color: #2e2f42;
 }
+
+.navigation {
+  margin-left: 76px;
+}
+
+.navigation ul {
+  display: flex;
+  gap: 40px;
+}
+
+.address {
+  margin-left: auto;
+}
+
 .navigation-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -86,6 +137,11 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.feature-list {
+  display: flex;
+}
+
 .section-title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -97,6 +153,22 @@ body {
 .team {
   background-color: #f4f4fd;
 }
+
+.team-card {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+}
+
+.team-list {
+  display: flex;
+  gap: 32px;
+}
+
+.team-member-content {
+  padding: 32px 0;
+  text-align: center;
+}
+
 .team-member-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -112,13 +184,29 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.portfolio-card {
+  background-color: #ffffff;
+}
+
+.portfolio-content {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .portfolio-title {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   color: #2e2f42;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
 }
 .portfolio-text {
   font-family: "Roboto", sans-serif;

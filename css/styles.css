@@ -35,6 +35,10 @@ body {
   padding-bottom: 120px;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
+}
 .header .container {
   display: flex;
   align-items: center;
@@ -53,6 +57,9 @@ body {
 .logo-part {
   color: #2e2f42;
 }
+img {
+  display: block;
+}
 
 .navigation {
   margin-left: 76px;
@@ -64,6 +71,9 @@ body {
 }
 
 .address {
+  font-style: normal;
+  display: flex;
+  gap: 40px;
   margin-left: auto;
 }
 
@@ -75,6 +85,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-decoration: none;
+  padding: 24px 0;
 }
 .navigation-link:hover,
 .navigation-link:focus {
@@ -95,8 +106,14 @@ body {
 .hero {
   background-color: #2e2f42;
 }
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .hero-title {
   font-family: "Roboto", sans-serif;
+  margin-bottom: 48px;
   font-weight: 700;
   max-width: 496px;
   font-size: 56px;
@@ -128,6 +145,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   color: #2e2f42;
 }
 .feature-text {
@@ -140,14 +158,17 @@ body {
 
 .feature-list {
   display: flex;
+  gap: 24px;
 }
 
 .section-title {
   font-family: "Roboto", sans-serif;
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 72px;
   color: #2e2f42;
 }
 .team {
@@ -172,15 +193,16 @@ body {
 .team-member-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
+  margin-bottom: 8px;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .team-member-position {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
@@ -198,7 +220,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
   color: #2e2f42;
@@ -234,8 +256,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
   color: #f4f4fd;
 }
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
